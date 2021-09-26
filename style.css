@@ -1,0 +1,419 @@
+    * {
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+        font-family: calibri;
+    }
+    
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    
+    header {
+        display: flex;
+        width: 80%;
+        justify-content: space-between;
+        margin: 0 auto;
+        height: 3em;
+        align-items: center;
+    }
+    
+    .logo {
+        font-family: calibri;
+        font-weight: 600;
+        font-size: 17px;
+        color: grey;
+    }
+    
+    .hero {
+        position: relative;
+    }
+    
+    .hero-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        width: 80%;
+    }
+    
+    .hero-text p {
+        font-size: 3em;
+        font-weight: 100;
+        font-family: calibri;
+    }
+    
+    .hero-text h1 {
+        font-size: 5rem;
+    }
+    
+    .hero img {
+        width: 100%;
+        margin-bottom: 0;
+    }
+    
+    .hero .underline {
+        height: 0.4em;
+        width: 60%;
+        display: block;
+        background: #fff;
+        margin-top: 1em;
+    }
+    
+    .service {
+        background-color: rgb(241, 241, 241);
+        margin-top: 0;
+    }
+    
+    .service-text {
+        height: 100%;
+        text-align: center;
+        width: 60%;
+        margin: 0 auto;
+        padding-bottom: 2rem;
+    }
+    
+    .title {
+        font-size: 22px;
+        color: grey;
+        padding-top: 1em;
+        padding-bottom: 0.3em;
+    }
+    
+    .service h3 {
+        font-size: 2em;
+        padding: 0.5em;
+    }
+    
+    .long {
+        padding: 1em;
+    }
+    
+    .best button,
+    .red,
+    .service button {
+        padding: 0.6rem 1.2rem;
+        background-color: rgb(228, 4, 4);
+        border: 0px;
+        border-radius: 2px;
+        color: #fff;
+        cursor: pointer;
+    }
+    
+    .show-all {
+        width: 80%;
+        margin: 3em auto;
+    }
+    
+    .show-all img {
+        width: 100%;
+    }
+    
+    .show p {
+        width: 100%;
+        margin: 0 auto;
+        font-size: 18px;
+        padding-bottom: 4em;
+        text-align: center;
+    }
+    
+    .away {
+        width: 80%;
+        margin: 3em auto;
+    }
+    
+    .away img {
+        width: 100%;
+    }
+    /* .away h3,
+p {
+    padding: 1em;
+} */
+    
+    .away h3 {
+        font-size: 2em;
+    }
+    
+    .away p {
+        color: rgb(228, 4, 4);
+        font-weight: 600;
+        font-size: 1.5em;
+        padding: .6em;
+    }
+    
+    .best {
+        display: flex;
+        background-color: gainsboro;
+        align-items: center;
+        padding: 2rem;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    
+    .best img {
+        height: 30em;
+    }
+    
+    .best-text {
+        width: 30%;
+    }
+    
+    .best-text h1 {
+        font-size: 3em;
+        color: blue;
+    }
+    
+    .best-text p {
+        font-size: 17px;
+    }
+    
+    .best .underline {
+        height: 0.4em;
+        width: 100%;
+        display: block;
+        background: rgb(228, 4, 4);
+        margin-top: 1em;
+        margin-bottom: 1.5em;
+    }
+    
+    .best button {
+        margin-top: 1em;
+        cursor: pointer;
+    }
+    
+    .service-list {
+        padding: 1em;
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .service-list h3 {
+        font-size: 2.5em;
+        padding: 0.6em;
+    }
+    
+    .service-list .container {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    
+    .paint {
+        width: 16em;
+        padding: 1em;
+    }
+    
+    .paint h4 {
+        font-size: 20px;
+        padding-top: 0.4em;
+        padding-bottom: 1em;
+    }
+    
+    .about {
+        background-color: rgb(2, 2, 131);
+        color: #fff;
+        padding: 3em;
+    }
+    
+    .about p {
+        text-align: center;
+        padding-bottom: 1em;
+    }
+    
+    .set-img {
+        display: flex;
+        width: 70%;
+        justify-content: space-evenly;
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
+    
+    .set-img img {
+        width: 15em;
+        height: 15em;
+        margin: 1em;
+        height: 20em;
+    }
+    
+    .todo {
+        width: 80%;
+        margin: 0 auto;
+        padding: 3rem;
+        text-align: center;
+    }
+    
+    .todo h3 {
+        font-size: 1.6em;
+    }
+    
+    .todo p {
+        font-size: 20px;
+        width: 60%;
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+    
+    .white {
+        padding: .6rem 1.7rem;
+        background-color: #fff;
+        border: 1px solid grey;
+        border-radius: 4px;
+        color: black;
+        cursor: pointer;
+        margin-left: 1em;
+    }
+    
+    footer {
+        height: 15em;
+        padding: 3em;
+        background-color: rgb(24, 24, 24);
+        text-align: center;
+        color: #fff;
+        font-size: 17px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    @media screen and (max-width: 880px) {
+        .set-img {
+            display: flex;
+            width: 90%;
+            justify-content: space-evenly;
+            margin: 0 auto;
+            flex-wrap: wrap;
+        }
+    }
+    
+    @media screen and (max-width: 800px) {
+        .hero-text p {
+            font-size: 2.5em;
+            font-weight: 100;
+            font-family: calibri;
+        }
+        .hero-text h1 {
+            font-size: 4rem;
+        }
+        .set-img {
+            display: flex;
+            width: 90%;
+            align-self: center;
+            justify-content: space-evenly;
+            margin: 0 auto;
+            flex-wrap: wrap;
+        }
+        .set-img img {
+            width: 100%;
+            height: 15em;
+            margin: 1em auto;
+            height: 20em;
+        }
+        .todo {
+            width: 90%;
+            margin: 0 auto;
+            padding: 3rem;
+            text-align: center;
+        }
+        .todo h3 {
+            font-size: 1.6em;
+        }
+        .todo p {
+            font-size: 20px;
+            width: 80%;
+            margin: 0 auto;
+            text-align: center;
+            padding-top: 1em;
+            padding-bottom: 1em;
+        }
+    }
+    
+    @media screen and (max-width: 695px) {
+        .hero-text p {
+            font-size: 2.3em;
+            font-weight: 100;
+            font-family: calibri;
+        }
+        .hero-text h1 {
+            font-size: 3.5rem;
+        }
+    }
+    
+    @media screen and (max-width: 569px) {
+        .hero-text p {
+            font-size: 2.2em;
+            font-weight: 100;
+            font-family: calibri;
+        }
+        .hero-text h1 {
+            font-size: 3rem;
+        }
+        .best-text {
+            width: 60%;
+        }
+    }
+    
+    @media screen and (max-width: 495px) {
+        .hero-text p {
+            font-size: 1.5em;
+            font-weight: 100;
+            font-family: calibri;
+        }
+        .hero-text h1 {
+            font-size: 2.5rem;
+        }
+        .away h3 {
+            font-size: 1.7em;
+        }
+    }
+    
+    @media screen and (max-width: 410px) {
+        .hero-text p {
+            font-size: 1.3em;
+            font-weight: 100;
+            font-family: calibri;
+        }
+        .hero-text h1 {
+            font-size: 2rem;
+        }
+        .best-text {
+            width: 80%;
+        }
+        .todo {
+            width: 95%;
+            margin: 0 auto;
+            padding: 3rem;
+            text-align: center;
+        }
+        .todo h3 {
+            font-size: 1.6em;
+        }
+        .todo p {
+            font-size: 17px;
+            width: 90%;
+            margin: 0 auto;
+            text-align: center;
+            padding-top: 1em;
+            padding-bottom: 1em;
+        }
+    }
+    
+    @media screen and (max-width: 360px) {
+        .hero-text p {
+            font-size: 1em;
+            font-weight: 100;
+            font-family: calibri;
+        }
+        .hero-text h1 {
+            font-size: 1.8rem;
+        }
+        .away h3 {
+            font-size: 1.5em;
+        }
+        .away p {
+            font-size: 1.2em;
+        }
+    }
