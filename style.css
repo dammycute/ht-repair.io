@@ -49,9 +49,28 @@
         font-size: 5rem;
     }
     
-    .hero img {
+    .heroImg {
         width: 100%;
         margin-bottom: 0;
+    }
+    
+    .hero-img {
+        margin-top: 1em;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 60%;
+    }
+    
+    .hero-img img {
+        width: 50px;
+        height: 50px;
+        margin-top: 1em;
+    }
+    
+    .contain .img-text {
+        font-size: 16px;
+        margin-top: 1em;
     }
     
     .hero .underline {
@@ -209,6 +228,13 @@ p {
         font-size: 20px;
         padding-top: 0.4em;
         padding-bottom: 1em;
+    }
+    
+    .radius {
+        background-color: red;
+        width: 4em;
+        padding: 15px;
+        border-radius: 50%;
     }
     
     .about {
