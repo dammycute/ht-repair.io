@@ -442,4 +442,8 @@ p {
         .away p {
             font-size: 1.2em;
         }
+       .contain .img-text {
+        font-size: 14px;
+        margin-top: 1em;
+    }
     }
