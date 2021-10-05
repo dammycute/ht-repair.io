@@ -398,6 +398,9 @@ p {
     }
     
     @media screen and (max-width: 410px) {
+       body{
+          width:100%;
+          }
         .hero-text p {
             font-size: 1.3em;
             font-weight: 100;
